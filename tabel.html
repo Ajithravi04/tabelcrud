@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table card</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+     <table>
+           <tr>
+              <td>
+                  <form autocomplete="off" onsubmit="onFormSubmit()">
+                        <div>
+                            <label for="studentname">student Name</label>
+                            <input type="text" name="student" id="studentname">
+                        </div>
+                        <div>
+                            <label for="age">Age</label>
+                            <input type="number" name="student" id="age">
+                        </div>
+                        <div>
+                            <label for="collegename">College Name</label>
+                            <input type="text" name="student" id="collegename">
+                        </div>
+                        <div>
+                            <label for="yearofpassing">Year of passing</label>
+                            <input type="number" name="student" id="yearofpassing">
+                        </div>
+
+                        <div class="form_action--button">
+                            <input type="submit" value="submit">
+                            <input type="reset" value="reset">
+
+                        </div>
+                  </form>
+                      
+                     <td>
+                        <table class="list" id="storeList">
+                            <thead>
+                                  <tr>
+                                       <th>student Name</th>
+                                       <th>Age</th>
+                                       <th>College Name</th>
+                                       <th>Year of passing</th>
+                                  </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+                     </td>
+
+              </td>
+           </tr>
+     </table>
+<script src="./tabel.js"></script>
+</body>
+</html>
